@@ -38,3 +38,9 @@
     width: .05em;
     align-self: stretch;
 }
+
+.caret {
+    border: .25em solid transparent;
+    border-top-color: #777;
+    translate: 0 25%;
+}
