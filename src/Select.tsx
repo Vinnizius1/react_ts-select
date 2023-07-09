@@ -18,6 +18,13 @@ export default function Select({ value, onChange, options }: SelectProps) {
       <button className={styles["clear-btn"]}>&times;</button>
       <div className={styles.divider}></div>
       <div className={styles.caret}></div>
+      <ul className={styles.options}>
+        {options.map(option => (
+          <li key={option.value} className={styles.option}>
+            {option.label}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
