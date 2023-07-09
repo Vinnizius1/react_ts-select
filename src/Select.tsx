@@ -1,3 +1,5 @@
+import styles from "./select.module.css";
+
 type SelectOption = {
   label: string;
   value: string;
@@ -10,5 +12,5 @@ type SelectProps = {
 };
 
 export default function Select({ value, onChange, options }: SelectProps) {
-  return <div className=""></div>;
+  return <div className={styles.container}></div>;
 }
