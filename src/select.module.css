@@ -13,3 +13,28 @@
 .container:focus {
     border-color: hsl(200, 100%, 50%);
 }
+
+.value {
+    flex-grow: 1;
+}
+
+.clear-btn {
+    background: none;
+    color: #777;
+    border: none;
+    outline: none;
+    font-size: 1.25em;
+    cursor: pointer;
+    padding: 0;
+}
+
+.clear-btn:focus,
+.clear-btn:hover {
+    color: #333;
+}
+
+.divider {
+    background-color: #777;
+    width: .05em;
+    align-self: stretch;
+}
